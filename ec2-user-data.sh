@@ -5,3 +5,4 @@ yum update -y
 yum install -y httpd
 systemctl start httpd
 systemctl enablecho "<h1>welcome back to the hello world of new branch from $(hostname -f)</h1>" > /var/www/html/index.html
+systemctl enablecho "<h1>I am practising the GIT $(hostname -f)</h1>" > /var/www/html/index.html
